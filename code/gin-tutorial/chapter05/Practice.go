@@ -43,5 +43,10 @@ func Practice() *gin.Engine {
 		})
 	})
 
+	r.GET("/static/*filepath", func(ctx *gin.Context) {
+		filepath := ctx.Param("filepath")
+		ctx.String(http.StatusOK, "请求文件: %s", filepath)
+	})
+
 	return r
 }
