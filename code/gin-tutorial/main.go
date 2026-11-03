@@ -8,7 +8,8 @@ import (
 	// "gin-tutorial/chapter05"
 	// "gin-tutorial/chapter06"
 	// "gin-tutorial/chapter07"
-	"gin-tutorial/chapter08"
+	// "gin-tutorial/chapter08"
+	"gin-tutorial/chapter09"
 )
 
 func main() {
@@ -19,5 +20,6 @@ func main() {
 	// chapter05.LearnCode()
 	// chapter06.LearnCode()
 	// chapter07.LearnCode()
-	chapter08.LearnCode()
+	// chapter08.LearnCode()
+	chapter09.LearnCode()
 }
