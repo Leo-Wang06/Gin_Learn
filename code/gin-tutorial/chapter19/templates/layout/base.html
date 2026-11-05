@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head><title>{{ .title }}</title></head>
+<body>
+    <header>公共头部</header>
+    
+    {{ template "content" . }}               <!-- 插入子模板 -->
+    
+    <footer>公共底部</footer>
+</body>
+</html>
