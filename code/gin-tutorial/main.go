@@ -14,7 +14,8 @@ import (
 	// "gin-tutorial/chapter12"
 	// "gin-tutorial/chapter14"
 	// "gin-tutorial/chapter19"
-	"gin-tutorial/chapter20"
+	// "gin-tutorial/chapter20"
+	"gin-tutorial/chapter21"
 )
 
 func main() {
@@ -31,5 +32,6 @@ func main() {
 	// chapter12.LearnCode()
 	// chapter14.LearnCode()
 	// chapter19.LearnCode()
-	chapter20.LearnCode()
+	// chapter20.LearnCode()
+	chapter21.LearnCode()
 }
