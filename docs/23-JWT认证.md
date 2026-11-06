@@ -114,7 +114,7 @@ func JWTAuthMiddleware() gin.HandlerFunc {
 		// 存入 Context（后续 Handler 可获取）
 		c.Set("user_id", claims.UserID)
 		c.Set("username", claims.Username)
-
+	
 		c.Next()
 	}
 }
